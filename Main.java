@@ -64,7 +64,7 @@ public class Main {
                     switch (op) {
                         case 1:
                             for (int i = 0; i < arrayCelsius.length; i++) {
-                                System.out.println("Digite a temperatura em Celsius: ");
+                                System.out.println("Digite a " + (i+1) + "° temperatura em Celsius: ");
                                 arrayCelsius[i] = scanner.nextInt();
 
                                 System.out.println(arrayCelsius[i] + "°C equivale a " + ConvTemp.converta(arrayCelsius[i]) + "°F.");
@@ -74,7 +74,7 @@ public class Main {
 
                         case 2:
                             for (int i = 0; i < arrayFahrenheit.length; i++) {
-                                System.out.println("Digite a temperatura em Fahrenheit: ");
+                                System.out.println("Digite a " + (i+1) + "° temperatura em Fahrenheit: ");
                                 arrayFahrenheit[i] = scanner.nextDouble();
 
                                 System.out.println(arrayFahrenheit[i] + "°F equivale a " + ConvTemp.converta(arrayFahrenheit[i]) + "°C.");
@@ -84,7 +84,7 @@ public class Main {
                         case 3:
                             for (int i = 0; i < arrayCelsius.length; i++) {
 
-                                System.out.println("Digite a temperatura em Celsius: ");
+                                System.out.println("Digite a " + (i+1) + "° temperatura em Celsius: ");
                                 arrayCelsius[i] = scanner.nextInt();
                                 System.out.println("Digite a quantidade do ajuste da temperatura: ");
                                 ajuste = scanner.nextDouble();

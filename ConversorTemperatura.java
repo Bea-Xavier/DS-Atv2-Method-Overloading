@@ -18,7 +18,7 @@ public class ConversorTemperatura {
 
     // De Celsius para Fahrenheit com o ajuste extra
     public double converta(int Celsius, double ajuste) {
-        return (Math.round((Celsius * 1.8) + 32)) + ajuste;
+        return ((Celsius * 1.8) + 32) + ajuste;
     }
 
 }
